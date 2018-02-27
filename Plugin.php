@@ -18,7 +18,7 @@ class Plugin extends PluginBase
         return [
             'name'        => 'Twig Dump +',
             'description' => 'Add Twig function d() that recursively dump passed variables only if app.debug is true',
-            'author'      => 'dwl',
+            'author'      => 'davask',
             'icon'        => 'icon-code'
         ];
     }
