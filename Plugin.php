@@ -1,4 +1,4 @@
-<?php namespace Dwl\Dump;
+<?php namespace Davask\Dump;
 
 use Illuminate\Support\Debug\Dumper;
 use System\Classes\PluginBase;
@@ -18,7 +18,7 @@ class Plugin extends PluginBase
         return [
             'name'        => 'Twig Dump +',
             'description' => 'Add Twig function d() that recursively dump passed variables only if app.debug is true',
-            'author'      => 'Dwl',
+            'author'      => 'Davask',
             'icon'        => 'icon-code'
         ];
     }
